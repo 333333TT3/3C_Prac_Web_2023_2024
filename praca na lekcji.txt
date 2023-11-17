@@ -1,0 +1,98 @@
+Odpowiedź:
+1.c
+2.a
+3.b
+4.c
+5.a
+
+Ćw1
+<?php
+    $number = 4;
+    $number2= 8;
+    if($number > $number2)
+        echo($number);
+    if($number < $number2)
+        echo($number2);
+?>
+
+Ćw2
+<?php
+$number = 38;
+if($number < 0 )
+{
+    echo("Incorrect number");
+}
+else
+{
+    $wynik = sqrt($number);
+    echo $score;
+}
+?>
+
+Ćw3
+<?php
+    $number= -5;
+    if($number < 0)
+    $number *=  -5;
+    echo($number);
+?>
+
+Ćw4
+<?php
+$a = 10;
+$b = 15;
+if($b > $a)
+        echo($a);
+else if($a == $b)
+        echo("numbers are equal");
+else  if($a < $b)
+        echo($b);
+?>
+
+Ćw5
+Switch jest lepszy od if:
+
+- wpływa na przejrzystosc kodu,
+- kod jest bardziej wydajny
+
+Ćw6
+<?php
+$pl = 50;
+
+$whatValue = 1;
+define("Euro", 4.32);
+define("Dollar",3.21);
+define("Frank",3.98);
+if($whatValue ==1|| $whatValue == 2|| $whatValue == 3)
+{
+    switch( $whatValue) 
+    {
+        case 1:
+            echo($pl/Euro+"euro");
+            break;
+        case 2:
+            echo($pl/Dolar+"$");
+            break;
+        case 3:
+            echo($pl/Frank+"Frank");
+            break;
+    }
+}
+else 
+    echo("wrong number");
+?>
+
+Ćw7
+<?php
+    $language ="g";
+    
+    if($language =="g")
+        echo("german");
+    else if($language=="s")
+        echo("spanish");
+    else if($language== "e")
+        echo("english");
+    else
+    echo("wrong number");
+
+?>
