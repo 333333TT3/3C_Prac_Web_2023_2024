@@ -1,0 +1,56 @@
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #003d33 ;
+}
+
+.banner {
+    background-color: #003d33;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.left-banner {
+    width: 70%;
+}
+
+.right-banner {
+    width: 30%;
+}
+
+.left-block {
+    background-color: #26a69a;
+    height: 550px;
+    width: 30%;
+}
+
+.right-block {
+    background-color: #26a69a;
+    height: 550px;
+    width: 70%;
+}
+
+.footer {
+    background-color: #003d33;
+    color: white;
+}
+
+.businesscard {
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    border: 1px solid #003d33;
+}
+
+.business-card button {
+    background-color: #003d33;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+.business-card button:hover {
+    background-color: #004c40;
+}
